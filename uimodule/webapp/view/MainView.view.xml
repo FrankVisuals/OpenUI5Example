@@ -5,7 +5,11 @@
   <App id="idAppControl" >
     <pages>
       <Page title="{i18n>title}">
-        <content></content>
+        <content>
+          <VBox alignItems="Center">
+            <Text text="Place your content here..." />
+          </VBox>
+        </content>
       </Page>
     </pages>
   </App>
